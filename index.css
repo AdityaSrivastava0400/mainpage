@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    margin: 0;
+  }
+body{
+    font-family: 'Roboto';
+    margin: 3rem 5rem;
+      /* background: url("cards.jpg"); */
+      /* background-repeat: no-repeat; */
+      background-image: url("cards.jpg");
+  
+      /* Full height */
+      height: 100%; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+    
+}
+.father{
+    display: flex;
+    justify-content: space-between;
+}
+.child1{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.child2{
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+}
+a{
+    padding: 5px 10px;
+    font-size: 28px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #343a40;
+}
+a:hover{
+    /* background-color: aliceblue; */
+    color: black;
+
+}
+.bg {
+    /* The image used */
+   
+  }
+
+
